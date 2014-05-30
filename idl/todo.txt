@@ -1,0 +1,39 @@
+- Change rounds using IDL WAD maps to their real maps
+- Add IDL WADs to the database as their own separate table
+  - idl_wads
+  - idl_wad_maps
+- Add quotes somewhere
+
+- Media page
+  - Main panel is too short
+  - Add side navbar
+    - Live (video/radio, based on site-wide state stuff)
+      - When active:
+        - Light up MEDIA nav button (top-left corner "LED"?)
+        - MEDIA nav button goes to /media/live instead of /media/video
+    - Video
+      - Archived Video Search
+      - Latest Videos
+    - Radio
+      - Archived Radio Search
+      - Latest Radio
+
+- Profiles
+  - Add captain record to player profiles
+  - Add/Test demo upload
+
+- Admin
+  - Site-wide state stuff (streaming/broadcasting, etc.)
+  - Cache update after game upload
+    - Update game
+    - Update game's players
+    - Update teams
+    - Update season player stats
+    - Update season team stats
+
+2 more Foreign Language
+Natural Science (2)
+History (Perspectives on the World since 1800)
+Social Sciences (1 more)
+Advanced Courses (3-4 more)
+

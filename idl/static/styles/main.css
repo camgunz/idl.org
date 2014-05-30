@@ -1,0 +1,77 @@
+html {
+    font-family: sans-serif;
+    background: url('../images/fake_background.png') repeat;
+}
+
+hr {
+    border: 1px solid #606060;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/banner.png') no-repeat center top;
+}
+
+div#outer_body {
+    text-align: center;
+}
+
+div#body {
+    width: 960px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    text-align: left;
+}
+
+div#upper_navbar {
+    position: relative;
+    top: 10px;
+    left: 513px;
+    width: 435px;
+    right: -10px;
+    padding: 0px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin: 0px;
+}
+
+div#panels {
+    width: 960px;
+    min-width: 960px;
+    margin: 0px;
+    margin-top: 208px;
+    padding: 0px;
+}
+
+div#main_panel, div#side_panel {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 1px;
+}
+
+div#main_panel {
+    display: table-cell;
+    vertical-align: top;
+    min-width: 600px;
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+div#side_panel {
+    display: table-cell;
+    vertical-align: top;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+div#footer {
+    width: auto;
+    font-size: .8em;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+}
+

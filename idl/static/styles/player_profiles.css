@@ -1,0 +1,90 @@
+div#player_profile {
+    margin-bottom: 20px;
+    height: 448px;
+    min-height: 448px;
+}
+
+div#player_profile div.doomguy_background {
+    float: left;
+    position: relative;
+    clear: none;
+}
+
+div#player_profile img {
+    width: 328px;
+    height: 448px;
+    vertical-align: top;
+    opacity: 0.85;
+    filter:alpha(opacity=85); /* <= IE8 :< */
+}
+
+div#player_profile div.player_stats {
+    float: left;
+    position: absolute;
+    clear: none;
+    left: 15px;
+    text-align: right;
+    margin: 0px;
+    margin-bottom: 13px;
+    margin-left: 25px;
+    width: 520px;
+    min-width: 520px;
+    max-width: 520px;
+    height: 460px;
+    min-height: 460px;
+    max-height: 460px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+div#player_profile div.player_stats h2 {
+    float: right;
+    clear: right;
+    margin: 0px;
+    right: 0px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+    width: 60%;
+}
+
+table.player_stats {
+    border-collapse: collapse;
+    float: right;
+    clear: both;
+    margin-top: 10px;
+}
+
+table.player_stats tr {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+table.player_stats td {
+    text-align: right;
+    padding: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1.2em;
+}
+
+table.player_stats td.stat_name {
+    text-align: right;
+}
+
+div.player_profile_search_result {
+    margin-left: 1em;
+}
+
+iframe#demo_data {
+    width: 150px;
+    height: auto;
+    margin: 2px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    display: none;
+}
+

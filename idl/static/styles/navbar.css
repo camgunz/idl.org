@@ -1,0 +1,90 @@
+/* [CG] This code is from the blackted2 SMF theme by pixelslot.  Although the
+ *      license for the theme states that a link to their site must be on the
+ *      page, their site is no more.  Thus I've only included them in the
+ *      Credits & Attribution section.
+ */
+
+/* Helping style to clear floated items. */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac. \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac. */
+
+/* [CG] This concludes the code from pixelslot. */
+
+div.navbar {
+    padding-left: 15px;
+	background: url('../images/menu_back.png') repeat-x bottom left;
+	border-radius: 1ex;
+	-webkit-border-radius: 1ex;
+	-khtml-border-radius: 1ex;
+	-moz-border-radius: 1ex;
+}
+
+div.navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.navbar li {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+div.navbar li a {
+    float: left;
+    display: block;
+    color: #D0D0D0;
+    font-size: .7em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+}
+
+div.navbar li a:hover {
+    color: #77D0FF;
+	color: white;
+	text-decoration: none;
+}
+
+div.navbar li a.active {
+	color: white;
+	text-decoration: none;
+}
+
+div.navbar li a span {
+	background: url('../images/menu_back.png') repeat-x bottom left;
+	display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+	height: 35px;
+	line-height: 3em;
+}
+
+div.navbar li a.active span {
+	background: url('../images/menu_back_pressed.png') repeat-x bottom left;
+    border-left: 1px solid #181818;
+    border-right: 1px solid #181818;
+}
+

@@ -1,0 +1,34 @@
+div.week_summary {
+    margin-bottom: 25px;
+}
+
+div.week_summary a,
+div.week_summary a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.week_summary a:hover {
+    color: #C0C0C0;
+}
+
+div.week_summary img {
+    display: inline;
+    width: 160px;
+    height: 120px;
+    vertical-align: top;
+}
+
+div.week_summary div.matchups {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+div.week_summary div.matchups table {
+}
+
+hr.schedule_separator {
+    padding: 0px;
+    margin-bottom: 18px;
+}
+

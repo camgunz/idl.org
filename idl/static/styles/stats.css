@@ -1,0 +1,52 @@
+h3.stat_chart_header {
+    margin-left: 12px;
+}
+
+div.stat_chart {
+    padding: 3px;
+    max-width: 594px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+div.player_stats {
+    font-size: 0.85em;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+table.player_stats {
+    width: 100%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+table.player_stats th, table.player_stats td {
+    margin: 2px;
+    padding: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid #444444;
+}
+
+table.player_stats th {
+    background-color: rgba(0, 0, 0, .70);
+}
+
+table.player_stats td {
+    text-align: right;
+}
+
+table.player_stats td.lefted {
+    text-align: left;
+}
+
+.lightbluebg {
+    background-color: rgba(0, 0, 128, .5);
+}
+
+.lightgreybg {
+    background-color: rgba(0, 0, 0, .35);
+}
+

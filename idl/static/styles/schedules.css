@@ -1,0 +1,63 @@
+div.schedule_week {
+    margin-bottom: 50px;
+    height: 432px;
+    min-height: 432px;
+}
+
+div.schedule_week div.week_table {
+    padding: 0px;
+}
+
+div.schedule_week div.week_table h2 {
+    margin: 0px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 556px;
+    max-width: 556px;
+}
+
+table.game_results {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.game_results tr {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+table.game_results th,
+table.game_results td {
+    text-align: center;
+    padding: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+table.game_results th {
+    text-align: center;
+    white-space: nowrap;
+}
+
+table.game_results th.lefted {
+    text-align: left;
+}
+
+td.red_team {
+    background-color: rgba(128, 0, 0, .5);
+}
+
+td.blue_team {
+    background-color: rgba(17, 60, 192, .5);
+}
+
+span.red_team {
+    color: rgba(255, 50, 50, 1);
+}
+
+span.blue_team {
+    color: rgba(64, 128, 255, 1);
+}
+

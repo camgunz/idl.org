@@ -1,6 +1,3 @@
-idl.org
-=======
-
 This is the source for intldoomleague.org.  It's written using Python, 
 Mako (including XHTML), Javascript, CSS and SQL.  It requires ZDStack (the
 most recent version from SVN), boto, saadmin (something else I wrote), Flask,
@@ -8,10 +5,6 @@ SMF, and PostgreSQL.  Postgres isn't a hard requirement, it's just that saadmin
 doesn't work with anything else right now.  Adding support is trivial, but
 more effort than none so I haven't done it.  Also MySQL won't store anything
 smaller than a second in its datetime/time fields, so good luck there.
-
-If you don't want the site to be slow, you need to enable a cache daemon.
-Support for Kyoto Cabinet/Tycoon and SQLite is included, although support for
-other engines ought to be trivial to add.
 
 <This is in LICENSE as well>
 

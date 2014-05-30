@@ -1,0 +1,46 @@
+img.screenshot {
+    min-width: 560px;
+    max-width: 560px;
+    min-height: 420px;
+    max-height: 420px;
+    margin-left: 12px;
+}
+
+h3.map_label {
+    float: left;
+    clear: none;
+    position: absolute;
+    margin: 0px;
+    padding: 12px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .65);
+    top: 350px;
+    left: 24px;
+}
+
+div.map_stats {
+    float: right;
+    clear: none;
+    position: absolute;
+    margin: 0px;
+    padding: 10px;
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, .55);
+    top: 47px;
+    right: 16px;
+}
+
+table.map_stats {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.map_stats td {
+    margin: 0px;
+    padding: 3px;
+}
+

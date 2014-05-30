@@ -1,0 +1,29 @@
+div.box div.form, form {
+    text-align: right;
+}
+
+div.box div.form input, form input {
+    margin-bottom: 10px;
+}
+
+form select {
+    margin-right: 2px;
+}
+
+form button#submit_demo {
+    margin-right: 2px;
+}
+
+div#uploading img, div#uploading span {
+    vertical-align: middle;
+}
+
+div#uploading span {
+    padding-right: 20px;
+    padding-bottom: 2px;
+}
+
+div#logout_and_admin a {
+    margin-right: 10px;
+}
+

@@ -1,0 +1,73 @@
+div.score_entry {
+    min-width: 320px;
+    max-width: 320px;
+    padding: 0px;
+    margin: 0px;
+    min-height: 120px;
+}
+
+div.score_entry img {
+    width: 160px;
+    height: 120px;
+    vertical-align: top;
+}
+
+div.score_entry div.box_scores {
+    display: inline-block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 13px;
+    margin-left: 2px;
+    padding: 0px;
+    padding-left: 5px;
+    vertical-align: middle;
+    max-width: 149px;
+    min-height: 120px;
+}
+
+div.score_entry div.box_scores a, div.score_entry div.box_scores a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+div.score_entry div.box_scores a:hover {
+    color: #D0D0D0;
+}
+
+div.score_entry div.box_scores h2 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+div.score_entry table.box_scores {
+    border-collapse: collapse;
+    vertical-align: bottom;
+}
+
+div.score_entry table.box_scores tr.red_team,
+div.score_entry table.box_scores tr.blue_team {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.score_entry table.box_scores tr.red_team {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+div.score_entry table.box_scores tr.blue_team {
+    background-color: rgba(35, 90, 255, .3);
+}
+
+div.score_entry table.box_scores tr.red_team td,
+div.score_entry table.box_scores tr.blue_team td {
+    margin: 0px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+div.score_entry hr.score_entry_separator {
+    padding: 0px;
+    margin-bottom: 18px;
+}
+

@@ -1,0 +1,126 @@
+div.round {
+    margin-bottom: 75px;
+    height: 650px;
+    min-height: 650px;
+}
+
+div.round div.stats {
+    min-height: 375px;
+    height: 695px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div.stats h3.game_results {
+    font-size: 1.5em;
+}
+
+div.stats table {
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div.stats table caption {
+    background-color: rgba(0, 0, 0, .35);
+    font-size: 1.1em;
+    padding: 7px;
+}
+
+div.stats table th {
+    background-color: rgba(0, 0, 0, .35);
+}
+
+div.stats table th, div.stats table td {
+    padding: 4px;
+}
+
+.red_team {
+    background-color: rgba(192, 0, 0, .3);
+}
+
+.blue_team {
+    background-color: rgba(35, 90, 255, .2);
+}
+
+table.matchups th, table.matchups td.max_width {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 55px;
+}
+
+div.game_demos {
+    width: 100%
+}
+
+table.game_demos {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table.game_demos th, table.game_demos td {
+    background-color: rgba(0, 0, 0, .35);
+    padding: 8px;
+}
+
+div.score_entry {
+    margin: 0px;
+    padding: 0px;
+    min-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+hr.score_entry_separator {
+    margin: 0px;
+    margin-bottom: 18px;
+    padding: 0px;
+}
+
+div.box_score_screenshot {
+    float: left;
+    clear: none;
+    position: absolute;
+}
+
+div.box_score_screenshot img {
+    width: 240px;
+    height: 180px;
+}
+
+div.box_score {
+    position: relative;
+    max-width: 280px;
+    background-color: rgba(0, 0, 0, .5);
+    top: 10px;
+    left: 10px;
+    min-width: 280px;
+}
+
+div.box_score_header h2 {
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    max-width: 80px;
+    max-height: 40px;
+}
+
+div.box_score_header a, div.box_score_header a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.box_score_header a:hover {
+    color: #D0D0D0;
+}
+
+div.box_score_content {
+    padding: 15px;
+    padding-top: 10px;
+    padding-left: 25px;
+    min-width: 180px;
+}
+

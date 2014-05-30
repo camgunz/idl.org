@@ -1,0 +1,31 @@
+div.background_screenshot div.screenshot {
+    float: left;
+    position: relative;
+    clear: none;
+}
+
+div.background_screenshot div.screenshot img {
+    width: 576px;
+    height: 432px;
+    vertical-align: top;
+}
+
+div.background_screenshot div.content {
+    float: left;
+    position: absolute;
+    clear: none;
+    margin: 0px;
+    margin-bottom: 13px;
+    vertical-align: middle;
+    min-width: 576px;
+    max-width: 576px;
+    min-height: 432px;
+    max-height: 432px;
+    background-color: rgba(0, 0, 0, .60);
+}
+
+div.background_screenshot div.content h2 {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, .50);
+}
+

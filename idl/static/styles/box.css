@@ -1,0 +1,66 @@
+div.box {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    /*
+    background-color: rgba(0, 0, 0, .5);
+    */
+    background-color: #222222;
+	border-radius: 1ex;
+	-moz-border-radius: 1ex;
+	-webkit-border-radius: 1ex;
+	-khtml-border-radius: 1ex;
+    -moz-box-shadow: 8px 8px 4px 0px #000;
+    -webkit-box-shadow: 8px 8px 4px 0px #000;
+    box-shadow: 8px 8px 4px 0px #000;
+}
+
+a.box_header_link {
+    outline: none;
+    text-decoration: none;
+}
+
+h3.box_header {
+    font-size: 1em;
+    font-weight: bold;
+	color: white;
+    padding: .5em;
+    margin: 0px;
+	background: black url(../images/catbg.png) 0 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 1ex;
+	-moz-border-radius: 1ex;
+	-webkit-border-radius: 1ex;
+	-khtml-border-radius: 1ex;
+}
+
+a.box_header_link h3.box_header:hover {
+    color: #D0D0D0;
+}
+
+div.box_body {
+    padding: 12px;
+    top: -10px;
+    font-size: .8em;
+}
+
+h3.box_body_header {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+}
+
+div.box_footer {
+    font-size: .65em;
+    text-align: right;
+    border-top: 2px solid #606060;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+}
+

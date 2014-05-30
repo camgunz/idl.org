@@ -1,0 +1,22 @@
+div.news_post {
+}
+
+div.news_post img {
+    max-width: 240px;
+    max-height: 180px;
+}
+
+div.news_post blockquote {
+    background-color: #122232;
+    margin: 0px;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 1.5em;
+    font-size: 0.9em;
+    border: 1px solid #444444;
+}
+
+div.news_post blockquote hr {
+    display: none;
+}
+

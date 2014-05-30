@@ -1,0 +1,184 @@
+div#uploading {
+    height: 20px;
+    margin-left: 10px;
+}
+
+div#uploading img {
+    margin-top: 2px;
+    vertical-align: top;
+}
+
+#admin_box {
+    position: relative;
+    min-height: 540px;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+#admin_entry {
+    max-width: 580px;
+}
+
+#no_module_selected {
+    padding-top: 230px;
+    width: 100%;
+    text-align: center;
+}
+
+#admin_list {
+    padding: 5px;
+}
+
+#admin_entry {
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 0px;
+}
+
+#admin_entry h4 {
+    font-size: 1.5em;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+#modules {
+    padding-bottom: 5px;
+    width: 330px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#modules_list {
+    list-style: none;
+}
+
+#modules_list li {
+    font-size: .8em;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#modules_list li.module_header {
+    font-size: 1em;
+    padding-left: 0px;
+}
+
+#modules li.admin_entry:hover {
+    color: #44BBFF;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .35);
+    vertical-align: middle;
+}
+
+div.calendar {
+    text-align: center;
+    position: absolute;
+    float: right;
+    padding: 4px;
+    clear: none;
+    background-color: rgba(0, 0, 0, .2);
+    border: 1px solid #444444;
+}
+
+#admin_table {
+    border: 0;
+}
+
+#admin_table th, #admin_table td {
+    padding: 3px;
+}
+
+table.calendar {
+    margin-left: 20px;
+}
+
+table.calendar td.calendar_empty_cell {
+}
+
+table.calendar td.calendar_cell:hover {
+    background-color: rgba(0, 64, 128, .35);
+    cursor: pointer;
+}
+
+label.calendar {
+    font-weight: bold;
+}
+
+div#success, div#error {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+div#error {
+    background-color: #800000;
+}
+
+div#success {
+    background-color: #000080;
+}
+
+.leagues_and_conferences_calendar, .conferences_and_divisions_calendar,
+                                   .divisions_and_teams_calendar,
+                                   .teams_and_players_calendar,
+                                   .seasons_and_weeks_calendar,
+                                   .game_calendar,
+                                   .round_calendar,
+                                   .demo_calendar,
+                                   .news_item_calendar,
+                                   .administrator_calendar {
+    left: 355px;
+}
+
+.leagues_and_conferences_calendar {
+    top: 315px;
+}
+
+.conferences_and_divisions_calendar {
+    top: 305px;
+}
+
+.divisions_and_teams_calendar {
+    top: 210px;
+}
+
+.teams_and_players_calendar {
+    top: 300px;
+}
+
+.seasons_and_weeks_calendar {
+    top: 300px;
+}
+
+.game_calendar {
+    top: 300px;
+}
+
+.round_calendar {
+    top: 250px;
+}
+
+.demo_calendar {
+    top: 315px;
+}
+
+.news_item_calendar {
+    top: 300px;
+}
+
+.administrator_calendar {
+    top: 315px;
+}
+
+input {
+    max-width: 15em;
+}
+

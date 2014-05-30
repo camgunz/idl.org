@@ -52,3 +52,19 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Compiled Mako templates & cache
+data/templates/*.mako.py
+idl/mako_cache/*
+
+# Configs
+production.ini
+zdstack.ini
+idl/config.py
+
+# Vim
+*.swp
+
+# Misc
+backups/
+idl.sqlite
+idl/zdstack/log/ZDStack.log

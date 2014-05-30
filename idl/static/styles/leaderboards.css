@@ -1,0 +1,74 @@
+div.stat_content {
+    width: 100%;
+    padding-top: 45px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+div.stat_row {
+    vertical-align: bottom;
+    text-align: center;
+    width: 540px;
+    max-width: 540px;
+    padding: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.stat_box {
+    vertical-align: bottom;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    padding: 12px;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    width: 244px;
+    max-width: 244px;
+    height: 220px;
+    max-height: 345px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+div.stat_box h4 {
+    margin: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 1.1em;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+div.stat_box h4 a, div.stat_box h4 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+div.stat_box h4 a:hover {
+    color: #D0D0D0;
+}
+
+table.stat_leaders {
+    margin: 0px;
+    padding: 2px;
+    width: 232px;
+    max-width: 232px;
+    border-collapse: collapse;
+}
+
+hr.stat_heading_separator {
+    display: none;
+    padding: 1px;
+    margin: 1px;
+    color: #888888;
+    background-color: #CCCCCC;
+    border: 0px;
+}
+

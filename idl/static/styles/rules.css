@@ -1,0 +1,23 @@
+p.rules {
+    text-indent: 2em;
+}
+
+h3.rules {
+    font-size: 2em;
+    text-align: center;
+}
+
+h4.rules {
+    font-size: 1.5em;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+
+h5.rules {
+    font-size: 1.15em;
+    /*
+    border-left: 3px solid white;
+    padding-left: 3px;
+    */
+    text-decoration: underline;
+}

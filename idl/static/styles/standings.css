@@ -1,0 +1,78 @@
+table.standings {
+    border-collapse: collapse;
+    vertical-align: bottom;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+table.standings tr.idc,
+table.standings tr.wdc {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+table.standings tr.idc {
+    background-color: rgba(35, 90, 255, .2);
+}
+
+table.standings tr.wdc {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+table.standings tr th,
+table.standings tr td {
+    margin: 0px;
+    padding: 5px;
+}
+
+table.standings tr th {
+    background-color: rgba(0, 0, 0, .35);
+    font-size: 1.1em;
+    padding: 7px;
+}
+
+table.standings tr.wdc td,
+table.standings tr.idc td {
+    vertical-align: text-top;
+}
+
+table.standings div.standings_team_name {
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+table.standings div.standings_team_members {
+    padding-left: 1em;
+    font-weight: normal;
+}
+
+/******************************************************************************
+ *
+ * Sortable Table Declarations
+ *
+ */
+
+th {
+    text-align: center;
+}
+
+th a {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+th.forwardSort {
+    background: transparent url('/static/images/arrowup.gif') no-repeat scroll center right;
+}
+
+th.reverseSort {
+    background: transparent url('/static/images/arrowdn.gif') no-repeat scroll center right;
+}
+
+th a:visited {
+    color: white;
+    text-decoration: none;
+}
+

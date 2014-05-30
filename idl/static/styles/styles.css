@@ -1,0 +1,62 @@
+.lefted {
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+.righted {
+    text-align: right;
+}
+
+.rounded {
+	border-radius: 1ex;
+	-webkit-border-radius: 1ex;
+	-khtml-border-radius: 1ex;
+	-moz-border-radius: 1ex;
+}
+
+.indented {
+    padding-left: 1em;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+    vertical-align: top;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+a.nolink {
+    color: white;
+}
+
+div.table {
+    display: table;
+    background-color: rgba(0, 0, 0, .35);
+    padding: 7px;
+}
+
+div.table_row {
+    display: table-row;
+}
+
+div.table_cell {
+    display: table-cell;
+    text-align: left;
+}
+
+div.table div.header {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+div.full_width {
+    width: 100%;
+}
+

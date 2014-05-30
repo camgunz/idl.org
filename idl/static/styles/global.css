@@ -1,0 +1,102 @@
+a, a:visited {
+    color: #44BBFF;
+}
+
+input, button {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: .9em;
+    background-color: #222222;
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid #444444;
+}
+
+select {
+    margin: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 3px;
+    color: white;
+    background-color: #222222;
+    border: 1px solid #444444;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+option {
+    color: white;
+    background-color: #222;
+}
+
+fieldset {
+    border: 2px solid #444444;
+}
+
+label {
+    padding: 3px;
+    padding-top: 7px;
+}
+
+button::-moz-focus-inner {
+    padding: 0px;
+    border: 0;
+}
+
+button {
+    padding: 5px;
+}
+
+img.loading {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+span.success, span.error {
+    margin-right: 15px;
+}
+
+span.error:before {
+    content: "Error: "
+}
+
+div.file_input {
+    position: relative;
+    margin-bottom: 4px;
+}
+
+div.fake_file {
+    position: absolute;
+    width: 300px;
+    top: 0px;
+    z-index: 1;
+    padding-top: 6px;
+}
+
+div.fake_file input {
+    width: 185px;
+    display: none;
+}
+
+input.file {
+    position: relative;
+    text-align: right;
+    filter:alpha(opacity: 0);
+    z-index: 2;
+    margin-top: 12px;
+}
+
+div.form {
+    text-align: right;
+}
+
+iframe.file_upload {
+    display: none;
+}
+
+div#uploading {
+    display: none;
+}
+

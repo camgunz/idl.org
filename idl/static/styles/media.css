@@ -1,0 +1,23 @@
+#description {
+    width: 600px;
+    color:#666;
+    font-size:11px;
+    margin:10px 0;
+}
+
+div#video {
+}
+
+a#video_player {
+    display: block;
+    width: 600px;
+    height: 450px;
+    min-width: 600px;
+    min-height: 450px;
+    max-width: 600px;
+    max-height: 450px;
+}
+
+div#radio {
+}
+
